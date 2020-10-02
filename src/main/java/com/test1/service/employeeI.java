@@ -13,4 +13,5 @@ public interface employeeI {
 
     ResponseEntity<Object> getallemployees();
 
+    void deleteEmployeebyId(int empid);
 }
